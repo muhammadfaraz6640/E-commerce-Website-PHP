@@ -1,0 +1,172 @@
+.dropdown button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-style: none;
+}
+.dropdown button:hover{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+}
+.dropdown-menu a{
+    border: none;
+    background-color: purple;
+    color: black;
+}
+.navbar-nav li{
+    padding: 0 18px;
+}
+.navbar-nav li:hover
+{    
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color: purple; 
+    border: solid palevioletred;
+}
+#right{
+    float: right;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 13px;
+    padding-right: 10px;
+}
+.search form{
+    margin: auto;
+}
+.log a{
+    padding-top: 20px;
+}
+.container{    
+    margin: auto;
+    width: 200px;
+    height: auto;  
+}
+.container form{
+     padding-left: 100px;  
+    padding-top : 30px ; 
+}
+.tab th, td {
+    padding: 15px;
+  }
+.ins_lab{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*#product_container{
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}*/
+#one_product{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#card{
+    padding :30px;
+    width: auto;
+    border: solid black;
+}
+.content{
+    
+
+    width: auto;
+    height: auto;
+    padding-left: 70px    ;   
+    background-color: purple;
+}
+#card-img-top{
+    padding-left: 20px;
+    width: 200px;    
+    height: 180px;
+    padding-left: 0px;    
+    border: 2px solid black;
+}
+#card-img-top-details{
+    padding-left: 20px;
+    width: 500px;    
+    height: 380px;
+    padding-left: 0px;    
+    border: 2px solid black;
+}
+#card-title{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+#card-text{
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+}
+#card img:hover{
+    /*animation: shake 0.5s;     
+    animation-iteration-count: infinite; */
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.reg-inp{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+    padding: 50px;        
+    background-color:purple ;
+    width: 360px;    
+    height: 800px;
+    padding-bottom: 50px;    
+    padding-top: 50px;
+    margin: auto;    
+}
+.reg-inp input{
+    width: 200px;
+}
+.act h1{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    background-color: purple;
+    border: solid palevioletred;
+}
+/* #footer{
+    position: relative;
+ bottom: 0;
+ width: 100%;
+ 
+ background-color:purple;
+ border: solid rgb(187, 53, 98);
+}
+#footer h1{
+    font-weight: bolder;
+    color: black;
+} */
+.cart_bar{
+  background: purple;
+  background-color: purple;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+   margin: auto;
+   
+}
+.cart_bar b{
+    font-size: larger;
+    color: red;
+    
+   
+}
